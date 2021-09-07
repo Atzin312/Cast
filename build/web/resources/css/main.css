@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-size  : 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---- ---- ---- ---- ---- ---- ---- ---- ---- ----*
+ *				 BARRA DE NAVEGACIÓN
+ *---- ---- ---- ---- ---- ---- ---- ---- ---- ----*/
+.navbar {
+    height : 30vh;
+    padding: 30px 60px;
+    background: linear-gradient(to left,
+            #22c1c3,
+            #04454b), url('../images/brokers-discussing-trading-strategy-holding-papers-with-financial-data-pointing-pen-charts-cropped-shot-broker-job-stock-market-exchange-concept.jpg');
+
+}
+
+.nav-item>* {
+    color      : #d4d4d4 !important;
+    font-size  : 1.2rem;
+    font-weight: bold;
+    transition : .7s;
+}
+
+.nav-item :hover {
+    color: #bbbbbb !important;
+}
+
+.nav-brand-icon {
+    width: 2rem;
+}
+
+.navigation-state {
+    background-color: #f8f8f8;
+    font-weight     : bold;
+}
+
+/*---- ---- ---- ---- ---- ---- ---- ---- ---- ----*
+ *				 FOOTER
+ *---- ---- ---- ---- ---- ---- ---- ---- ---- ----*/
+
+.footer-container {
+    height          : 10vh;
+    background-color: #2b2727;
+}
+
+.footer-container>* p {
+    color      : white;
+    font-size  : .8rem;
+    font-weight: 400;
+}
+
+/*---- ---- ---- ---- ---- ---- ---- ---- ---- ----*
+ *				 NOTICIAS
+ *---- ---- ---- ---- ---- ---- ---- ---- ---- ----*/
+.notices>* .card {
+    margin-top: 10px;
+}
+
+.notices>* .card-header {
+    font-size: 1.8rem;
+}
+
+.notices>* .card-body {
+    font-size: 1.4rem;
+}
+
+.notices-info {
+    padding-left: 10%;
+}
+
+.notices-info>* {
+    font-size: 1.4rem;
+}
+
+.fa-fire {
+    font-size: 1.5rem;
+    color: orangered;
+}
+
+.discussion-img {
+    width: 100%;
+}
+
+
+/*---- ---- ---- ---- ---- ---- ---- ---- ---- ----*
+ *				 ASIDE MENU
+ *---- ---- ---- ---- ---- ---- ---- ---- ---- ----*/
+.most-visited-item>* {
+    font-size: .8rem;
+}
+
+.most-visited-item .text-end {
+    font-style: italic;
+    padding   : 0;
+}
